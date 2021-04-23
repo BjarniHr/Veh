@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="is">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title>Verkefni 4 tafla og form</title>
+  <link href="https://fonts.googleapis.com/css?family=Jura&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="vrk4_VEF2.css">
+</head>
+
+<body id=" ">
+  <header class="container col-2">
+    <div>
+      <h1>
+        Töflur og form
+      </h1>
+    </div>
+    <div>
+      <p class="verkefni">Verkefni 4</p>
+      <nav class="topnav">
+      </nav>
+    </div>
+  </header>
+  <div class="box">
+    <section class="container">
+      <nav class="innermenu bil hover">
+        <a class="test border" href="#form">form</a>
+      </nav>
+      <h1>Verkefni 4</h1>
+      <table>
+        <caption>Sveigjanleg tafla</caption>
+        <thead>
+          <tr>
+            <th scope="row">
+              Laugardagur
+            </th>
+            <td colspan="2">
+              (jan-mars)
+            </td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">
+              <time datetime="08:30:00">8:30 AM</time>
+            </th>
+            <td colspan="2" data-label="8:30 AM">
+              morgunmatur (matur eftir töflu í matsal)
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <time datetime="09:00:00">9:00 AM</time>
+            </th>
+            <td data-label="8:30 AM">
+              <h4>ef gott veður: Útivist, leikir</h4>
+              Hermaður, "capture the flag", Varúlfur
+              </a>
+            </td>
+            <td>
+              <h4>ef vont veður: inni leikir, föndur</h4>
+              varúlfur, Feluleikur með slökkt ljós, borðspil
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <time datetime="12:30:00">12:00 PM</time>
+            </th>
+            <td colspan="2">
+              Hádegismatur (matur eftir töflu í matsal)
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <time datetime="18:00">6:00 PM</time>
+            </th>
+            <td>
+              <h4>Ganga</h4>
+              ganga upp Heljarfjall, ganga að Heljarfossi
+              </a>
+            </td>
+          </tr>
+          <th scope="row">
+            <time datetime="18:00">6:00 PM</time>
+          </th>
+          <td colspan="2">
+            Kvöldmatur (matur eftir töflu í matsal)
+          </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <time datetime="18:00">6:00 PM</time>
+            </th>
+            <td>
+              <h4>Bíómynd</h4>
+              Princess bride, Ace ventura, Lotr, Hunger Games
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </div>
+  <div class="box2" id="form">
+
+    <section class="container nidur1">
+      <legend>Skráning:</legend>
+      <form action="/action_page.php" class="form">
+        <label for="fname">Fullt nafn:</label><br>
+        <input type="text" id="fname" name="fname" value=" "><br>
+        <br>
+        <label for="birthday">fæðingadagur:</label><br>
+        <input type="date" id="fæðingadagur" name="fæðingardagur"><br>
+        <br>
+        <label for="lname">Fullt nafn forráðamans:</label><br>
+        <input type="text" id="lname" name="lname" value=" "><br><br>
+
+        <label for="Simanumer">Sími forráðamans:</label><br>
+        <input type="tel" id="simanumer" placeholder="(+354)"><br>
+        <br>
+        <label for="email-input">Rafpóst forráðarmanns:</label><br>
+        <input id="email-input" type="email" name="email-inputted" placeholder="forráðamaður@gmail.com"><br>
+        <br>
+        <label>kyn:</label><br>
+        <input type="radio" id="male" name="kyn" value="kk">
+        <label for="male">kk</label><br>
+
+        <input type="radio" id="female" name="kyn" value="kvk">
+        <label for="female">kvk</label><br>
+
+        <input type="radio" id="other" name="kyn" value="hvk">
+        <label for="other">hvk</label><br>
+
+        <input type="radio" id="other" name="kyn" value="annað">
+        <label for="other">annað</label><br>
+        <br>
+        <input type="checkbox" id="spurning2" name="spurning2" value="Sp2">
+        <label for="spurning2">Ég hef farið í aðrar sumarbúðir áður</label><br>
+
+        <input type="checkbox" id="spurning3" name="spurning3" value="Sp3">
+        <label for="spurning3">Ég kann að synda</label><br>
+
+        <input type="checkbox" id="spurning4" name="spurning4" value="Sp4">
+        <label for="spurning4">Ég borða gulrætur</label><br>
+        <label for="datime">Veldu tíma til að vera vakin/inn:</label>
+        <select name="timinn" id="cars">
+          <option value="timi1">7:30</option>
+          <option value="timi2">8:00</option>
+          <option value="timi3">8:30</option>
+          <option value="timi4">9:00</option>
+        </select>
+        <br>
+        <br><textarea rows="5" cols="60" name="description" placeholder="athugasemdir"></textarea><br>
+        <id="email-input" name="email-inputted" required>
+          <input type="submit" value="Submit">
+      </form>
+
+      <p><a href=" ">Efst á síðu</a></p>
+    </section>
+  </div>
+
+  <footer class="container col-3 litur">
+    <nav>
+      <h4>DL listi </h4>
+      <dl>
+        <dt>Nafn:</dt>
+        <dd>Bjarni Hrafnkelsson</dd>
+        <dt>Tölvupóstur:</dt>
+        <dd>Bjarni04@gmail.com</dd>
+        <dt>Áfangi og braut:</dt>
+        <dd> VEFÞ2VH05BU</dd>
+      </dl>
+    </nav>
+  </footer>
+  <p class="copy">&copy; 2021 GGV</p>
+  <a href="#" class="topbutt" title="Efst á síðu"> &#8679; </a>
+</body>
+
+</html>
